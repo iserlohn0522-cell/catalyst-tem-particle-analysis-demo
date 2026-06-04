@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this public demo structure, please cite the repository release."
+title: "Data-Safe TEM Particle Analysis Demo"
+version: 0.1.0
+date-released: 2026-06-04
+authors:
+  - family-names: "Iserlohn"
+repository-code: "https://github.com/iserlohn0522-cell/catalyst-tem-particle-analysis-demo"
+license: "MIT"
+abstract: "A public, synthetic-data demo of an auditable TEM particle-analysis workflow for catalyst images."

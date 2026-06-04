@@ -1,0 +1,31 @@
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.venv/
+*.pyc
+*.egg-info/
+
+# Generated local outputs
+demo_outputs/
+tmp/
+
+# Raw research data and model artifacts must never be committed.
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+*.tif
+*.tiff
+*.dm3
+*.dm4
+*.emd
+*.emi
+models/
+weights/
+checkpoints/
+raw_data/
+private_data/
+experiments/
+results/
+output/
