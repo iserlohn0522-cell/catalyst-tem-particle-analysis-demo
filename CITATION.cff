@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "This is a public synthetic-data demo repository; please cite the repository release if you reuse its structure or code."
+message: "This is a public demo repository; please cite the repository release if you reuse its structure or code."
 title: "Catalyst TEM Particle Analysis Demo"
 version: 0.1.0
 date-released: 2026-06-04
@@ -8,4 +8,4 @@ authors:
     given-names: "Gan"
 repository-code: "https://github.com/iserlohn0522-cell/catalyst-tem-particle-analysis-demo"
 license: "MIT"
-abstract: "A public, synthetic-data demo of an auditable TEM particle-analysis workflow for catalyst images. The repository intentionally excludes private research data, trained weights, and unpublished results."
+abstract: "A public demo of an auditable TEM particle-analysis workflow for catalyst images. The runnable examples use synthetic data; the repository excludes source research images, trained weights, inference files, and unpublished results."

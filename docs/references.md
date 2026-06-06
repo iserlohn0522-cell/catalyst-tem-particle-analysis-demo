@@ -1,6 +1,6 @@
 # Related Work Notes
 
-This file collects references that frame the public demo. The list is intentionally selective; it is not a full literature review.
+This file collects references that frame the public demo. It is a selected reading list, not a full literature review.
 
 ## Closest Catalyst and Nanoparticle Work
 
