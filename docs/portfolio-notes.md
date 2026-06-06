@@ -1,6 +1,6 @@
 # Portfolio Notes
 
-This repository is a public portfolio demo for Research Engineer, Materials AI, and Scientific ML review. The runnable workflow uses synthetic data. The repo also includes one cropped model-result preview PNG.
+This repository is a public portfolio demo for Research Engineer, Materials AI, and Scientific ML review. The runnable workflow uses synthetic data. The repo also includes one cropped carbon-black model-result preview PNG.
 
 ## What It Demonstrates
 

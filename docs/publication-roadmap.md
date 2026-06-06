@@ -5,7 +5,7 @@ This repository is a public portfolio demo. It can become a paper companion repo
 ## Current Public Demo Scope
 
 - Synthetic TEM-like runnable data.
-- One cropped model-result preview PNG.
+- One cropped carbon-black model-result preview PNG.
 - No raw research images.
 - No trained weights or checkpoints.
 - No private manifests or internal experiment records.

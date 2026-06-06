@@ -11,10 +11,10 @@ The runnable demo uses synthetic images. The repo keeps the engineering pieces t
 | Item | Summary |
 |---|---|
 | Domain | Catalyst TEM image analysis / scientific microscopy |
-| Public scope | Synthetic runnable data; one cropped model-result preview PNG |
+| Public scope | Synthetic runnable data; one cropped carbon-black model-result preview PNG |
 | Demonstrated skills | Python packaging, image analysis, segmentation workflow design, provenance, metric reporting, testing, release hygiene |
 | Outputs | Review overlays, JSON report, summary Markdown, morphology metrics |
-| Private research boundary | No source TEM/STEM images, private annotations, trained weights, checkpoints, inference JSON, or unpublished results included |
+| Private research boundary | No source TEM/STEM images, private annotations, trained weights, checkpoints, model-output files, or unpublished results included |
 
 ## What The Repo Includes
 
@@ -46,15 +46,15 @@ This repo excludes:
 - Private manifests, internal experiment outputs, cluster scripts, or unpublished research reports.
 - Code, data, images, README text, or weights copied from related projects.
 
-The runnable examples use synthetic images. The model-result preview is a cropped PNG. Source images, model-output files, annotation files, checkpoints, and private paths stay outside the public repo.
+The runnable examples use synthetic images. The model-result preview is one cropped PNG from a carbon-black field. Source images, model-output files, annotation files, checkpoints, and private paths stay outside the public repo.
 
 ## Example Outputs
 
 The runnable example uses synthetic images under `examples/synthetic_dataset` and writes results to `docs/assets/demo_run`.
 
-![Cropped model result](docs/assets/cropped_model_output_preview.png)
+![Cropped carbon black model result](docs/assets/cropped_model_output_preview.png)
 
-This preview comes from a private model-output rendering. The repo includes only the cropped PNG from that run. Source images, model-output files, annotation files, checkpoints, and private paths stay outside. Use it as a visual workflow preview, not a benchmark.
+In the preview, particle prompts and masks come from model-output records: detector boxes plus SAM mask polygons. The scale-bar inset is cropped from the same source image and marked by an automatic bar-length detector. The repo includes only the rendered PNG, not the source image, model-output files, annotation files, checkpoints, or private paths. Use the figure as a workflow preview, not a benchmark.
 
 The runtime writes:
 
